@@ -1,0 +1,56 @@
+.coin_container {
+  display: flex;
+  justify-content: center;
+}
+
+.coin_row {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+  height: 70px;
+  cursor: pointer;
+
+  .coin {
+    display: flex;
+    align-items: center;
+    width: 35%;
+
+    .crypto_img {
+      height: 35px;
+      width: 35px;
+    }
+
+    .crypto_name {
+      margin-left: 10px;
+      width: 160px;
+      letter-spacing: 0.6px;
+    }
+
+    .crypto_symbol {
+      width: 50px;
+    }
+
+  }
+
+  .coin_data {
+    display: flex;
+    align-items: center;
+    width: 65%;
+
+    .crypto_price {
+      width: 90px;
+    }
+    .crypto_volume {
+      width: 150px;
+    }
+    .crypto_percent {
+      width: 80px;
+    }
+    .red{
+      color: red;
+    }
+    .green{
+      color: green;
+    }
+  }
+}
